@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+.logo{
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin: 1rem 2rem 1rem 5rem;
+}
+
+a.logo{
+    color:blueviolet;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.nav_button{
+    margin: 0rem 1rem 0rem 1rem;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid blueviolet;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.nav_button:hover{
+    background-color: white;
+    color:blueviolet;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.nav_button span{
+    cursor:grab;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}
+
+.intro{
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    padding: 6rem 2rem 1rem 6rem;
+    line-height: 4.2rem;
+    font-weight: 500;
+}
+
+.contact_btn{
+    margin: 0rem 2rem 1rem 6rem;
+    padding: .5rem 2rem .5rem 2rem;
+    background-color: white;
+    border: 2px solid blueviolet;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: blueviolet;
+}
+
+.contact_btn:hover{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.title{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.title_2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 3rem;
+    padding: 1rem;
+}
+
+.text{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem 2rem 4rem;
+    width: 50%;
+}
+
+#about_me{
+    width: 30%;  
+    margin: 1rem 1rem 2rem 4rem;
+    padding: 3rem 2rem 3rem 1rem;
+}
+
+#journey{
+    margin: 4rem 1rem 2rem 55%;
+    padding: 3rem 2rem 3rem 1rem;
+    width: 37%;
+}
+
+.lang{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.lang > p{
+    width: 25%;
+    padding: 1rem;
+    border: 1px solid red;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_intro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.projects{
+    display: flex;
+}
